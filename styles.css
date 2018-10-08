@@ -11,6 +11,7 @@
 .row {
   margin: 0 5%; }
 
+/*  MMMMMMMMM Navbar MMMMMMMM */
 ul {
   list-style-type: none;
   padding: 0; }
@@ -38,5 +39,7 @@ li a {
 
 li a:hover {
   color: gray; }
+
+/*  MMMMMMMMM Intro MMMMMMMM */
 
 /*# sourceMappingURL=styles.css.map */
