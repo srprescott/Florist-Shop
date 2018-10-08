@@ -1,1 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway|Sorts+Mill+Goudy");
+/* 
 
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Josefin Slab', serif;
+
+    font-family: 'Sorts Mill Goudy', serif;
+
+*/
+.row {
+  margin: 0 5%; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 2px solid black; }
+
+.navigation, .social {
+  display: flex;
+  flex-direction: row; }
+
+li {
+  padding: 0 25px 0 25px; }
+
+li a {
+  color: black;
+  text-decoration: none; }
+
+li a:hover {
+  color: gray; }
+
+/*# sourceMappingURL=styles.css.map */
