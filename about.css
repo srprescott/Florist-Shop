@@ -225,16 +225,16 @@ li a:hover{
         padding:0;
         margin: 0;
     }
-    .nav, {
+    .nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -267,16 +267,16 @@ li a:hover{
         padding:0;
         margin: 0;
     }
-    .nav, {
+    .nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -309,16 +309,16 @@ li a:hover{
         padding:0;
         margin: 0;
     }
-    .nav, {
+    .nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -351,16 +351,16 @@ li a:hover{
         padding:0;
         margin: 0;
     }
-    .nav{
+    .nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;

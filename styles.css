@@ -227,7 +227,6 @@ button:hover {
     display: flex;
     -ms-flex-flow: wrap;
     flex-flow: wrap;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
