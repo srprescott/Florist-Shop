@@ -108,6 +108,21 @@ li a:hover {
   display: flex;
   flex-basis: 47%; }
 
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F7E9E4;
+  border: 2px solid gray; }
+
+button:hover {
+  background-color: white;
+  border: 3px solid gray; }
+
+.box {
+  margin: 25px 0; }
+
 /*  MMMMMMM Footer MMMMMM */
 .footer {
   display: -webkit-box;
@@ -147,10 +162,10 @@ li a:hover {
     justify-content: center;
     align-items: center; }
 
-  li {
+  li, .spacer, .box {
     padding: 0 5px; }
 
-  .sec-two {
+  .sec-two, .sec-three {
     display: flex;
     flex-basis: 100%;
     flex-flow: wrap; } }
@@ -171,10 +186,10 @@ li a:hover {
     justify-content: center;
     align-items: center; }
 
-  li {
+  li, .spacer, .box {
     padding: 0 5px; }
 
-  .sec-two {
+  .sec-two, .sec-three {
     display: flex;
     flex-basis: 100%;
     flex-flow: wrap; } }
@@ -195,10 +210,10 @@ li a:hover {
     justify-content: center;
     align-items: center; }
 
-  li {
+  li, .spacer, .box {
     padding: 0 5px; }
 
-  .sec-two {
+  .sec-two, .sec-three {
     display: flex;
     flex-basis: 100%;
     flex-flow: wrap; } }
@@ -219,10 +234,10 @@ li a:hover {
     justify-content: center;
     align-items: center; }
 
-  li, .spacer {
+  li, .spacer, .box {
     padding: 0 5px; }
 
-  .sec-two {
+  .sec-two, .sec-three {
     display: flex;
     flex-basis: 100%;
     flex-flow: wrap; } }
