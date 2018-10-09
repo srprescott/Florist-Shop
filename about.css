@@ -124,6 +124,12 @@ li a:hover{
     font-size: 1.5rem;
 }
 
+.headline{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    text-align: center;
+}
 
 /*  MMMMMMM Section Three MMMMMM */
 
