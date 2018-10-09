@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway|Sorts+Mill+Goudy');
+
+/* 
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Josefin Slab', serif;
+
+    font-family: 'Sorts Mill Goudy', serif;
+
+*/
+
+.row{
+    margin: 0 5%;
+}
+
+/*  MMMMMMMMM Navbar MMMMMMMM */
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 5%;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation, .social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+li{
+    padding: 0 25px 0 25px;
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:gray;
+}
+
+
+/*  MMMMMMM Section One MMMMMM */
+
+.header{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.one{
+    border-top: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  MMMMMMM Footer MMMMMM */
+.footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    
+    bottom: 0;
+    position:static;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.2em;
+    
+    padding: 8px 5px 0 5px;
+}
+
+.footer p a{
+    color:black;
+    text-decoration: none;
+}
+
+.footer p a:hover{
+    color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {}
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    img, .row, body {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .nav, {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    li, .spacer, .box{
+        padding: 0 5px;
+    }
+    .sec-two, .sec-three{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    img, .row, body {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .nav, {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    li, .spacer, .box{
+        padding: 0 5px;
+    }
+    .sec-two, .sec-three{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .container-fluid {
+        width: 100%;
+    }
+    img, .row, body {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .nav, {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    li, .spacer, .box{
+        padding: 0 5px;
+    }
+    .sec-two, .sec-three{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 100%;
+    }
+    img, .row, body {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .nav, {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    li, .spacer, .box{
+        padding: 0 5px;
+    }
+    .sec-two, .sec-three{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+}
