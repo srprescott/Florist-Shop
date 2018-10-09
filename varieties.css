@@ -187,17 +187,8 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
-    }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
     }
 }
 
@@ -227,17 +218,8 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
-    }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
     }
 }
 
@@ -267,17 +249,8 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
-    }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
     }
 }
 
@@ -307,16 +280,8 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
     }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
+    
 }
