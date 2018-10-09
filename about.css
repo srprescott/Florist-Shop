@@ -229,13 +229,12 @@ li a:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -272,13 +271,12 @@ li a:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -315,13 +313,12 @@ li a:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -358,13 +355,12 @@ li a:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -390,19 +386,3 @@ li a:hover{
 
 
 
-/* li{
-        padding: 0 5px;
-    }
-    .two, .sub-p{
-        padding: 0;
-    }
-    .florist-blurb{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        margin-bottom: 20px;
-    }
-
-*/
