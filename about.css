@@ -12,6 +12,7 @@
 
 .row{
     margin: 0 5%;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*  MMMMMMMMM Navbar MMMMMMMM */
@@ -89,18 +90,64 @@ li a:hover{
 }
 
 
+/*  MMMMMMM Section Two MMMMMM */
+
+.two{
+    padding-top: 25px;
+    font-size: 1.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+    border: 8px double black;
+}
+
+.sub-p{
+    text-align: center;
+    padding: 25px 75px;
+    
+}
 
 
 
 
+/*  MMMMMMM Section Three MMMMMM */
 
+.three{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
+.florist-blurb{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+}
 
 
 
@@ -188,17 +235,11 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
     }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    .two, .sub-p{
+        padding: 0;
     }
 }
 
@@ -229,17 +270,11 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
     }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    .two, .sub-p{
+        padding: 0;
     }
 }
 
@@ -270,17 +305,11 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
     }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    .two, .sub-p{
+        padding: 0;
     }
 }
 
@@ -311,16 +340,10 @@ li a:hover{
         -ms-flex-align: center;
         align-items: center;
     }
-    li, .spacer, .box{
+    li{
         padding: 0 5px;
     }
-    .sec-two, .sec-three{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    .two, .sub-p{
+        padding: 0;
     }
 }
