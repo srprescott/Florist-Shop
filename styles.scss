@@ -121,7 +121,7 @@ li a:hover{
     width: 97%;
     font-size: 2rem;
     margin: 30px 0;
-    padding: 25px 5px;
+    padding: 35px 5px;
     background-color: #F7E9E4;
 }
 
@@ -131,9 +131,13 @@ li a:hover{
 .three{
     display: flex;
     justify-content: space-around;
+    flex-flow: wrap;
 }
 
-
+.sec-three{
+    display: flex;
+    flex-basis: 47%;
+}
 
 
 
