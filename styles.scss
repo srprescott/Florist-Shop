@@ -113,13 +113,14 @@ li a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    padding: 0;
+    margin: 0;
 }
 
 .spacer-p{
     font-family: 'Raleway', sans-serif;
-    width: 97%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
     margin: 30px 0;
     padding: 35px 5px;
     background-color: #F7E9E4;
@@ -145,19 +146,22 @@ button{
     font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
     background-color: #F7E9E4;
-    border: 2px solid gray;
+    border: none;
 }
 
 button:hover{
     background-color: white;
-    border: 3px solid gray;
+    
 }
 
 .box{
-    margin: 25px 0
+    margin: 20px 0;
+    box-shadow: 3px 3px 5px gray;
 }
 
-
+.sec-two{
+    box-shadow: 3px 3px 5px gray;
+}
 
 
 
