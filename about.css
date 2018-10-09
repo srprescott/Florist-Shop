@@ -120,12 +120,15 @@ li a:hover{
     
 }
 
-
+.intro-p{
+    font-size: 1.5rem;
+}
 
 
 /*  MMMMMMM Section Three MMMMMM */
 
 .three{
+    margin-top: 75px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -135,7 +138,9 @@ li a:hover{
     flex-direction: row;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
 }
 
 .florist-blurb{
@@ -146,7 +151,10 @@ li a:hover{
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 40%;
+    text-align: center;
+    border: 8px double black;
 }
 
 
@@ -241,6 +249,14 @@ li a:hover{
     .two, .sub-p{
         padding: 0;
     }
+    .florist-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -275,6 +291,14 @@ li a:hover{
     }
     .two, .sub-p{
         padding: 0;
+    }
+    .florist-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -311,6 +335,14 @@ li a:hover{
     .two, .sub-p{
         padding: 0;
     }
+    .florist-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -322,7 +354,7 @@ li a:hover{
         padding:0;
         margin: 0;
     }
-    .nav, {
+    .nav{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -346,4 +378,31 @@ li a:hover{
     .two, .sub-p{
         padding: 0;
     }
+    .florist-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
 }
+
+
+
+/* li{
+        padding: 0 5px;
+    }
+    .two, .sub-p{
+        padding: 0;
+    }
+    .florist-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+*/
