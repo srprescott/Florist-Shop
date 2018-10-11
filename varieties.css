@@ -127,14 +127,14 @@ li a:hover{
     font-family: 'Raleway', sans-serif;
     width: 100%;
     font-size: 1.8rem;
-    padding: 10px 5px;
+    padding: 50px 5px;
     
 }
 
 
 /*  MMMMMMM Section Two MMMMMM */
 
-.two, .three{
+.two, .three, .four{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
