@@ -88,6 +88,15 @@ li a:hover{
     align-items: center;
 }
 
+.intro-p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+.sub-p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
 
 /*  MMMMMMM Spacer MMMMMM */
 .spacer{
@@ -125,7 +134,7 @@ li a:hover{
 
 /*  MMMMMMM Section Two MMMMMM */
 
-.two{
+.two, .three{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -161,7 +170,6 @@ li a:hover{
 }
 
 .flower-blurb{
-    width: 100%;
     text-align: center;
 }
 
@@ -261,6 +269,18 @@ li a:hover{
     li{
         padding: 0 5px;
     }
+    .flower-box{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 0;
+    }
+    .flowers{
+        
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -291,6 +311,18 @@ li a:hover{
     }
     li{
         padding: 0 5px;
+    }
+    .flower-box{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 0;
+    }
+    .flowers{
+        
+        max-width: 100%;
     }
 }
 
@@ -323,6 +355,18 @@ li a:hover{
     li{
         padding: 0 5px;
     }
+    .flower-box{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 0;
+    }
+    .flowers{
+        
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -354,5 +398,16 @@ li a:hover{
     li{
         padding: 0 5px;
     }
-    
+    .flower-box{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 0;
+    }
+    .flowers{
+        
+        max-width: 100%;
+    }
 }
